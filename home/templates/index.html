@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="static/styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <title>Title</title>
+    <title>HytteTech</title>
 </head>
 <body id="body">
 <div id="loading">
@@ -13,17 +13,21 @@
 <div class="circle1"></div>
 </div>
 <div id="wrapper">
-<h1>Hello World</h1>
+<div id="header">
+<img src="/static/logo1.png" class="logo">
+</div>
 </div>
 </body>
 <script type="text/javascript">
 	$(document).ready(function() {
-    setTimeout(
+		document.getElementById("loading").style.display='none';
+		$("#wrapper").fadeIn(600);
+    /*setTimeout(
   function() 
   {
       $("#wrapper").show(600);
 
-document.getElementById("loading").style.display='none';  }, 5000);
+document.getElementById("loading").style.display='none';  }, 5000);*/
 });
 </script>
 </html>

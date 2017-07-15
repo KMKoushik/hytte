@@ -1,9 +1,14 @@
 #body {
-background-color:black;
+background-color: #434343;
 padding: 0;
 }
 #loading{
     margin-top: 25%;
+}
+#header{
+    
+    height: 20%;
+    margin:10 10 10 10;
 }
 /*Loading Style starts here*/
 .circle {
@@ -100,4 +105,9 @@ padding: 0;
 #wrapper{
     color: white;
     display: none;
+}
+
+.logo{
+    height: 250px;
+    width: 400px;
 }
