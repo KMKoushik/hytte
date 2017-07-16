@@ -37,7 +37,7 @@ padding: 0;
     height: 30px;
     margin: 0 auto;
     position: relative;
-    top: -50px;
+    top: -40px;
     -moz-animation: spinoffPulse 1s infinite linear;
     -webkit-animation: spinoffPulse 1s infinite linear;
 }
@@ -110,4 +110,9 @@ padding: 0;
 .logo{
     height: 250px;
     width: 400px;
+    margin:10px;
+}
+
+.menucircle{
+    margin-top: -50px;
 }
